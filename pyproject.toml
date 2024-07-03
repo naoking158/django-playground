@@ -1,5 +1,5 @@
 [project]
-name = "django-playground"
+name = "mycroblog"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
@@ -7,6 +7,7 @@ authors = [
 ]
 dependencies = [
     "django>=4.2.13",
+    "django-types>=0.19.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -23,4 +24,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/django_playground"]
+packages = ["src/microblog"]

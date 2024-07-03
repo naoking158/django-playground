@@ -11,8 +11,12 @@
 asgiref==3.8.1
     # via django
 django==4.2.13
-    # via django-playground
+    # via mycroblog
+django-types==0.19.1
+    # via mycroblog
 sqlparse==0.5.0
     # via django
+types-psycopg2==2.9.21.20240417
+    # via django-types
 typing-extensions==4.12.2
     # via asgiref
